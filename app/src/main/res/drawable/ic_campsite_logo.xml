@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Pine Tree -->
+    <path
+        android:fillColor="@color/forest_green_primary"
+        android:pathData="M30,20 L10,60 L50,60 Z" />
+    <path
+        android:fillColor="@color/forest_green_primary"
+        android:pathData="M30,40 L5,85 L55,85 Z" />
+    <path
+        android:fillColor="@color/earth_brown"
+        android:pathData="M25,85 L35,85 L35,95 L25,95 Z" />
+
+    <!-- Campfire -->
+    <!-- Logs -->
+    <path
+        android:fillColor="@color/earth_brown"
+        android:pathData="M65,85 L95,95 L92,98 L62,88 Z" />
+    <path
+        android:fillColor="@color/earth_brown"
+        android:pathData="M95,85 L65,95 L68,98 L98,88 Z" />
+    <!-- Flame -->
+    <path
+        android:fillColor="@color/sunset_orange"
+        android:pathData="M80,50 C80,50 90,70 80,85 C70,70 80,50 80,50 Z" />
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M80,65 C80,65 85,75 80,85 C75,75 80,65 80,65 Z" />
+</vector>

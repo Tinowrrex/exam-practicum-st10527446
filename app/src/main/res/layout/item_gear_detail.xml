@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardBackgroundColor="@color/dark_surface"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/forest_green_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Tent" />
+
+        <TextView
+            android:id="@+id/tvItemCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cream_off_white"
+            android:textSize="14sp"
+            tools:text="Category: Shelter" />
+
+        <TextView
+            android:id="@+id/tvItemQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cream_off_white"
+            android:textSize="14sp"
+            tools:text="Quantity: 1" />
+
+        <TextView
+            android:id="@+id/tvItemNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/sunset_orange"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            tools:text="Notes: Check for stakes" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">exam practicum st10527446</string>
+    <string name="campsite_commander">Campsite Commander</string>
+    <string name="logo_description">Campsite Commander Logo</string>
+    <string name="welcome_message">Welcome to Campsite Commander Main Screen!</string>
+    <string name="btn_add_gear">Add Gear</string>
+    <string name="total_packed">Total Items Packed: %1$d</string>
+    <string name="btn_view_details">View Detailed List</string>
+    <string name="detail_title">Gear Details</string>
+    <string name="btn_back_to_base">Back to Base</string>
+    <string name="item_category">Category: %1$s</string>
+    <string name="item_quantity">Quantity: %1$d</string>
+    <string name="item_notes">Notes: %1$s</string>
+</resources>
